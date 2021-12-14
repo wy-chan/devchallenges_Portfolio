@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+margin:0;
+ 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+color: #333333;
+}
+main{
+  width:67.3%;
+  max-width:969px;
+  margin-bottom:93px;
+}
+h1{
+ font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px; 
+margin-top:52px;
+margin-bottom:0px;
+  color: black;
+}
+.description{
+  display:flex;
+  align-items: flex-start;
+
+  margin-top:12px;
+}
+.dots6{
+  margin-top:6px;
+  margin-right: 12px;
+}
+.desc-text{
+  max-width:61%;
+
+  margin:0;
+  font-family: Montserrat;
+font-style: italic;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+  
+  color: #4F4F4F;
+}
+.cake-photo{
+max-width:100%;
+  margin-top:43px;
+  margin-bottom:48px;
+}
+.recipe-box{
+  position: relative;
+}
+
+.recipe-box-mini{
+  width: 216px;
+height: 367px;
+  background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  row-gap: 43px;
+  
+  position: absolute;
+  right:0;
+}
+.mini-box{
+  display: flex;
+  margin-left: 20.3%;
+
+  height:33px;
+}
+.mini-text{
+  margin-left:14.03px;
+}
+.time-title, .serving-title{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+text-transform: uppercase;
+
+color: #BDBDBD;
+  
+  margin:0;
+}
+.time-text, .serving-text{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+  margin-top:4px;
+}
+.material-icons{
+  width:28px;
+  height: 28px;
+  maring-top:4px;
+  color: #4F4F4F;
+}
+.serving-icon, .serving-text{
+  color: #F2994A;
+}
+.recipe-box-details{
+  width:60.27%;
+}
+h2{
+  font-family: "Playfair Display";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+
+  margin:0;
+}
+
+h3{
+ font-family: Playfair Display;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px; 
+  margin-top:32px;
+  margin-bottom:30px;
+}
+.ingredients>ul{
+  margin:0;
+  padding:0;
+}
+.ingredients-check{
+
+list-style: none;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+
+  display: flex;
+  margin:8px 0;
+
+}
+input[type=checkbox] {
+  appearance: none;
+  
+  flex: 0 0 21px;
+ width: 21px;
+ height: 21px;
+  border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 4px;
+  
+  margin-right: 17px;
+}
+input[type=checkbox]:hover{
+  cursor:pointer;
+}
+ input[type=checkbox]:checked {
+
+ background-color:#F2994A;
+ box-shadow: inset 0 0 0 3px white;
+border: 1px solid #F2994A;
+ }
+.ingredients-check>p{
+  margin: 0;
+}
+section{
+  margin-bottom:28px;
+}
+
+ol{
+list-style: none;
+   counter-reset: item;
+
+  margin:0;
+  padding:0;
+  
+}
+ol>li {
+   counter-increment: item;
+   margin-bottom: 30px;
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+position: relative;
+
+  padding-left:51px;
+  
+ }
+ol> li:before {
+   margin-right: 10px;
+   content: counter(item);
+   background: #F2994A;
+   border-radius: 6px;
+   color: white;
+   width: 36px;
+   height: 36px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  display: inline-block;
+  color: #FFFFFF;
+  position: absolute;
+  margin-left: -51px;
+  padding:0;
+ }
+
+footer{
+padding-top: 24px;
+padding-bottom: 24px;  
+width: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+
+}
+.instructions >ol{
+  margin-top:28px;
+   margin-bottom:57px;
+}
+.source-text{
+  font-family: Montserrat;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+  color: #BDBDBD;
+}
+
+footer> span{
+width: 287px;
+height: 17px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #BDBDBD;
+
+}
+
+em{
+  font-style: normal;
+  font-weight: bold;
+}
+@media(max-width:1000px){
+  main{
+    width: 94.6%;
+  }
+  h1{
+    font-size: 24px;
+line-height: 32px;
+  }
+  .desc-text{
+font-size: 12px;
+line-height: 15px;
+    max-width:85.3%;
+  }
+  .cake-photo{
+  margin-top:12px;
+  margin-bottom:24px;
+}
+  .recipe-box-mini{
+    position: relative;
+    box-shadow:none;
+    width:100%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap:20.75px;
+    margin-bottom:30px;
+    
+  }
+  .mini-box{
+    margin: 0;
+
+  }
+  
+  .yield-box{
+    width:100%;
+  }
+  .time-box{
+    width: 33.3%;
+  }
+  .material-icons{
+    width:13px;
+    height:13px;
+  }
+  .time-title, .serving-title{
+    font-size: 8px;
+    line-height: 10px;
+  }
+  .time-text, .serving-text{
+    font-size: 10px;
+line-height: 12px;
+  }
+  .recipe-box-details{
+    width:100%;
+  }
+  h2{
+    font-size: 18px;
+line-height: 24px;
+  }
+  h3{
+    font-size: 16px;
+line-height: 21px;
+  }
+  .ingredients-check{
+    font-size: 14px;
+line-height: 25px;
+  }
+  input[type=checkbox] {
+    width: 21px;
+height: 21px;
+    margin-right:8px;
+  }
+  ol>li {
+    font-size: 16px;
+line-height: 20px;
+  }
+  ol>li:before{
+    width: 36px;
+height: 36px;
+    border-radius: 6px;
+    font-size: 24px;
+line-height: 32px;
+  }
+  .source-text{
+    font-size: 12px;
+line-height: 150%;
+  }
+}
+

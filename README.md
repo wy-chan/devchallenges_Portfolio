@@ -41,12 +41,12 @@
 
 See demo here: https://wy-chan.github.io/devchallenges_RecipePage/
 
-I created a page based on the given design.
+I created a page based on the given design. This challenge helps me to learn more about checkbox and lists(ordered list/ unordered list).
 
 ### Built With
 
 - HTML
-- CSS
+- CSS, flexbox
 
 ## Features
 
@@ -78,8 +78,10 @@ $ npm start
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
+
+- [Google Fonts](https://fonts.google.com/)
+- [Material Icons](https://google.github.io/material-design-icons/)
 
 ## Contact
 

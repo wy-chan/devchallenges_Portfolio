@@ -37,7 +37,7 @@
 
 ## Overview
 
-<img src="images/screenshot.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile.png" alt="screenshot" height="800">
+<img src="images/screenshot.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile1.png" alt="screenshot" height="800">
 
 See demo here: https://wy-chan.github.io/devchallenges_RecipePage/
 

@@ -37,6 +37,8 @@
 
 ## Overview
 
+<img src="images/screenshot.png" alt="screenshot" height="800">&nbsp;&nbsp;<img src="images/screenshot_mobile.png" alt="screenshot" height="800">
+
 See demo here: https://wy-chan.github.io/devchallenges_RecipePage/
 
 I created a page based on the given design.
@@ -62,7 +64,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+$ git clone https://github.com/wy-chan/devchallenges_RecipePage
 
 # Install dependencies
 $ npm install
@@ -81,6 +83,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@wy-chan](https://github.com/wy-chan)
+- CodePen [@wy-chan](https://codepen.io/wy-chan)

@@ -58,20 +58,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] User story: I can select a checkbox if I have the ingredients
 - [x] User story: I can see the number of servings, baking times
 
-## How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/wy-chan/devchallenges_RecipePage
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
 
 ## Acknowledgements
 

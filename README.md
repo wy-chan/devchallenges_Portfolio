@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Recipe Page</h1>
+<h1 align="center">Portfolio</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://wy-chan.github.io/devchallenges_RecipePage">
+    <a href="https://wy-chan.github.io/devchallenges_Portfolio">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/wy-chan/devchallenges_RecipePage">
+    <a href="https://github.com/wy-chan/devchallenges_Portfolio">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt">
       Challenge
     </a>
   </h3>
@@ -46,17 +46,22 @@ I created a page based on the given design. This challenge helps me to learn mor
 ### Built With
 
 - HTML
-- CSS, flexbox
+- CSS
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht) was to build an application to complete the following user stories:
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt) was to build an application to complete the following user stories:
 
-- [x] User story: I can see a recipe with ingredients and instructions
-- [x] User story: I can select a checkbox if I have the ingredients
-- [x] User story: I can see the number of servings, baking times
+- [x] User story: I can see personal details
+- [x] User story: I can see skills
+- [x] User story: I can see projects
+- [x] User story: I can filter projects by tag
+- [x] User story: I can see hobbies or certificates
+- [x] User story (optional): I can see experiences
+- [x] User story (optional): I can see blogs
+- [x] User story (optional): I can see projects on different pages
 
 
 ## Acknowledgements

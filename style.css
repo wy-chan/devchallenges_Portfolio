@@ -1,1 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500');
 
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: #f2f2f2;
+  font-family: Montserrat;
+font-style: normal;
+}
+main{
+  margin-top:70px;
+  margin-bottom: 135px;
+  width: 73%;
+  max-width: 1046px;
+  display: grid;
+  grid-template-areas: 
+    "info info"
+    "project project"
+    "skills-exp1 project-hobby"
+    "skills-exp2 project-hobby";
+  
+  grid-template-columns: 0.4fr 0.6fr;
+  row-gap: 42px;
+  column-gap:35px;
+}
+img{
+background: #C4C4C4;
+border-radius: 12px;
+}
+section{
+  width: 100%;
+  padding:0;
+}
+.tile{
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0px 50px 30px -40px rgba(51, 51, 51, 0.1);
+}
+h1{
+  font-weight: 600;
+font-size: 24px;
+  color: #4F4F4F;
+}
+h2{
+  font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-transform: uppercase;
+  color: #4F4F4F;
+}
+h3{
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+  color: #4F4F4F;
+}
+h4{
+  font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #333333;
+
+  margin:0;
+  padding:0;
+}
+p{
+  font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+ color: #828282; 
+}
+.section-box{
+  padding: 22px;
+}
+#my-name{
+  margin:0;
+}
+#personal-info{
+  grid-area: info;
+}
+#personal-info-box{
+  display: flex;
+  column-gap: 34px;
+}
+#profile-pic{
+  height: 18vw;
+  width: 18vw;
+  max-height: 270px;
+  max-width: 270px;
+}
+#profile-text{
+  position: relative;
+}
+
+#contact-box{
+  position: absolute;
+  top:0;
+  right:0;
+  color: #4F4F4F;
+}
+#contact-box> p{
+  margin:0;
+  margin-bottom:10px;
+}
+#intro-p{
+  margin-top:37px;
+  font-weight: 500;
+  font-size: 18px;
+}
+#projects{
+  grid-area: project;
+
+  padding:0;
+  margin:0;
+}
+.project-top{
+  width:96%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 22px;
+  padding-top:22px;
+  margin:0;
+}
+.project-top>h3{
+  margin:0;
+}
+.project-btn{
+ padding: 8px 22px;
+  margin-top: 16px;
+ font-weight: 500;
+ font-size: 14px;
+  color: #4F4F4F;
+  
+ border: 1px solid #4F4F4F;
+box-sizing: border-box;
+border-radius: 12px;
+  
+  background: none;
+}
+
+.project-box-group{
+  margin-top:36px;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 30.5px;
+  justify-content: center;
+}
+.project-box{
+  margin:0;
+  padding:18px;
+  flex:1;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.project-img{
+   height: 217px;
+  
+  margin:0;
+  padding:0;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, .2), 0px 0px 15px rgba(0, 0, 0, .1);
+ 
+}
+.tag{
+color: #4F4F4F;
+}
+.project-btn-s-box{
+  display: flex;
+  column-gap: 11px;
+}
+.project-btn-s{
+  flex:1;
+  background:none;
+  color:#2F80ED;
+  height: 46px;
+  font-size: 18px;
+  
+border: 1px solid #2F80ED;
+box-sizing: border-box;
+border-radius: 12px;
+}
+
+.page-btn-box{
+  margin-top:36px;
+  display: flex;
+  column-gap: 12px;
+  justify-content: flex-end;
+}
+.page-btn{
+ height:36px;
+  width:36px;
+  
+box-sizing: border-box;
+border-radius: 4px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #4F4F4F;
+}
+.active-btn{
+ background: #2F80ED;
+border-color: #2F80ED;
+  color: white;
+}
+#skill-front-end{
+  grid-area: skills-exp1;
+}
+#skill-design{
+  grid-area: skills-exp2;
+}
+.skills-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 9px;
+  margin-bottom:9px;
+}
+.skills-box>p{
+  margin:0;
+}
+.skills-bg{
+  background: #C4C4C4;
+  width: 65%;
+  height:9.6px;
+  border-radius: 12px;
+}
+.skills-lv{
+   background: #2F80ED;
+border-radius: 12px;
+  height:100%;
+}
+.skills-html{
+  width:70%;
+}
+.skills-css{
+  width:80%;
+}
+.skills-js{
+  width:50%;
+}
+.skills-react{
+  width:40%;
+}
+.skills-ps{
+  width:80%;
+}
+.skills-fm{
+  width:40%;
+}
+
+#experiences{
+  grid-area: project-hobby;
+
+}
+/*
+#experiences>h4{
+  margin-top:17px;
+  margin-right:31px;
+  margin-bottom:44px;
+  margin-left:31px;
+}
+*/
+
+.exp-icon{
+  height:84px;
+  width:119px;
+}
+
+
+
+.my-footer{
+padding-bottom: 24px;  
+width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.my-footer> span{
+width: 287px;
+height: 17px;
+
+font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #BDBDBD;
+
+}
+
+em{
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+@media(max-width:1000px){
+ 
+}

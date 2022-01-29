@@ -20,8 +20,9 @@ main{
   grid-template-areas: 
     "info info"
     "project project"
-    "skills-exp1 project-hobby"
-    "skills-exp2 project-hobby";
+    "skills-exp1 exp"
+    "skills-exp2 exp"
+    "hobby hobby";
   
   grid-template-columns: 0.4fr 0.6fr;
   row-gap: 42px;
@@ -74,6 +75,10 @@ p{
 font-size: 16px;
 line-height: 22px;
  color: #828282; 
+  
+}
+button{
+  cursor:pointer;
 }
 .section-box{
   padding: 22px;
@@ -163,7 +168,8 @@ border-radius: 12px;
 }
 
 .project-img{
-   height: 217px;
+max-height: 217px;
+  width:100%;
   
   margin:0;
   padding:0;
@@ -259,23 +265,54 @@ border-radius: 12px;
 }
 
 #experiences{
-  grid-area: project-hobby;
+  grid-area: exp;
 
 }
-/*
-#experiences>h4{
-  margin-top:17px;
-  margin-right:31px;
+
+#experiences>.section-box>h4{
   margin-bottom:44px;
-  margin-left:31px;
+  
 }
-*/
 
+.exp-box-1{
+  display: flex;
+  column-gap: 23px;
+}
 .exp-icon{
   height:84px;
-  width:119px;
+  flex:0 0 119px;
+
 }
 
+.exp-text{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding:0;
+}
+.exp-text> p{
+  margin:0;
+}
+.exp-text> h5{
+  font-weight: 600;
+font-size: 16px;
+  margin-top:12px;
+  margin-bottom:33px;
+}
+#hobby{
+  grid-area:hobby;
+
+}
+.hobby-box{
+  display: flex;
+  column-gap:30px;
+}
+.hobby-img{
+  width:100%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2), 0px 0px 15px rgba(0, 0, 0, .1);
+}
 
 
 .my-footer{

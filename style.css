@@ -10,6 +10,7 @@ body{
   background: #f2f2f2;
   font-family: Montserrat;
 font-style: normal;
+    min-width:375px;
 }
 main{
   margin-top:70px;
@@ -27,6 +28,7 @@ main{
   grid-template-columns: 0.4fr 0.6fr;
   row-gap: 42px;
   column-gap:35px;
+
 }
 img{
 background: #C4C4C4;
@@ -70,6 +72,10 @@ color: #333333;
   margin:0;
   padding:0;
 }
+h5{
+  font-weight: 600;
+font-size: 18px;
+}
 p{
   font-weight: 500;
 font-size: 16px;
@@ -99,14 +105,13 @@ button{
   max-height: 270px;
   max-width: 270px;
 }
-#profile-text{
-  position: relative;
+#profile-top-box{
+  width: 100%;
+display: flex;
+  justify-content: space-between;
 }
 
 #contact-box{
-  position: absolute;
-  top:0;
-  right:0;
   color: #4F4F4F;
 }
 #contact-box> p{
@@ -182,6 +187,7 @@ color: #4F4F4F;
 .project-btn-s-box{
   display: flex;
   column-gap: 11px;
+  width:100%;
 }
 .project-btn-s{
   flex:1;
@@ -305,13 +311,21 @@ font-size: 16px;
   grid-area:hobby;
 
 }
+
 .hobby-box{
   display: flex;
   column-gap:30px;
+  margin-top: 26px;
 }
 .hobby-img{
   width:100%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, .2), 0px 0px 15px rgba(0, 0, 0, .1);
+}
+.hobby-text{
+  margin-top:26px;
+}
+.hobby-text>h5{
+  margin:0px;
 }
 
 
@@ -343,6 +357,50 @@ em{
 }
 
 
-@media(max-width:1000px){
- 
+@media(max-width:950px){
+  main{
+     grid-template-areas: 
+    "info info"
+    "project project"
+    "skills-exp1 skills-exp1"
+    "skills-exp2 skills-exp2"
+    "exp exp"
+    "hobby hobby";
+
+    width:90%;
+  }
+  #personal-info-box,.project-box,.exp-box-1, .hobby-box{
+    align-items: center;
+  }
+  #profile-top-box{
+    text-align: center;
+    margin-top: 42px;
+  }
+
+  #profile-top-box,  #personal-info-box, .project-box-group, .hobby-box, .exp-box-1{
+    flex-direction: column;    
+  }
+ .project-box-group, .hobby-box{
+    row-gap: 42px;
+  }
+  #profile-pic{
+    min-height: 120px;
+  min-width: 120px;
+  }
+  .project-img, .hobby-img{
+    max-width:291px;
+  }
+  .exp-icon{
+    height: auto;
+    flex: auto;
+    max-width:120px;
+  }
+  .exp-text-top,.hobby-box{
+    text-align: center;
+  }
+  .exp-text{
+    margin-top: 28px;
+  }
+
+
 }

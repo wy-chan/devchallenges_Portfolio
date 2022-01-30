@@ -118,7 +118,7 @@ display: flex;
   margin:0;
   margin-bottom:10px;
 }
-#intro-p{
+.intro-p{
   margin-top:37px;
   font-weight: 500;
   font-size: 18px;

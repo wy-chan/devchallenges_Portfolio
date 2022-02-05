@@ -1,0 +1,23 @@
+{
+  "projects":[
+    {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_profilep1.png",
+      "title":"Portfolio Page",
+      "demoURL":"https://wy-chan.github.io/devchallenges_Portfolio/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_Portfolio/"
+    },
+      {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_checkoutp.png",
+      "title":"Checkout Page",
+      "demoURL":"https://wy-chan.github.io/devchallenges_CheckoutPage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_CheckoutPage/"
+    },
+      {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_ediehomep.png",
+      "title":"Portfolio Page",
+      "demoURL":"https://wy-chan.github.io/devchallenges_EdieHomepage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_EdieHomepage/"
+    },
+    
+  ]
+}

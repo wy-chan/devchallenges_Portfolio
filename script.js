@@ -32,7 +32,6 @@ function nextPage(){
     currentPage +=1;
   };
   getPage(currentPage);
-  console.log(currentPage);
 }
 function previousPage(){
    closePage(currentPage);
@@ -40,13 +39,11 @@ function previousPage(){
     currentPage -=1;
   };
   getPage(currentPage);
-  console.log(currentPage);
 }
 function toPage(i){
    closePage(currentPage);
   currentPage = i;
    getPage(currentPage);
-  console.log(currentPage);
 }
 
 function getProjects(i){
@@ -65,12 +62,11 @@ function loadProject(i,p){
   else{
   $('.tag').eq(i).attr('style','opacity:1');
   $('.projectText').eq(i).attr('style','opacity:1');
-    $('.project-img').eq(i).attr('src',p.image).attr('style','opacity:1');
+  $('.project-img').eq(i).attr('src',p.image).attr('style','opacity:1');
   $('.projectTitle').eq(i).text(p.title).attr('style','opacity:1');
   $('.projectDemo').eq(i).attr('onclick',"window.open('"+p.demoURL+"','_blank')" ).attr('style','opacity:1');
   $('.projectCode').eq(i).attr('onclick',"window.open('"+p.codeURL+"','_blank')" ).attr('style','opacity:1');
-
-      }
+  }
 }
 
 function getPage(i) {

@@ -1,3 +1,4 @@
+<!--test -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   
@@ -7,6 +8,16 @@
     <link rel="icon" href="images/devchallenges.png" type="image/icon type">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <!--
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    -->
+    <!-- Load jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
     <script src="script.js"></script>
   </head>
   
@@ -43,55 +54,55 @@ call
   
   <section id="projects">
     <div class="project-top tile">
-      <h3>Projects (3)</h3>
+      <h3>Projects (8)</h3>
       <button class="project-btn active-btn">Responsive</button>
     </div>
     <div class="project-box-group">
     <div class="project-box tile">
-      <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_profilep1.png" alt="project image">
+      <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_profilep1.png" alt="project image" opacity="0">
       <p class="tag">#HTML #CSS #Responsive</p>
-      <h4>Portfolio Page</h4>
-      <p>In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
+      <h4 class="projectTitle">Portfolio Page</h4>
+      <p class="projectText">In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
       <div class="project-btn-s-box">
-      <button class="project-btn-s active-btn" onclick="window.open('https://wy-chan.github.io/devchallenges_Portfolio/','_blank')" >Demo</button>
-      <button class="project-btn-s" onclick="window.open('https://github.com/wy-chan/devchallenges_Portfolio','_blank')">Code</button>
+      <button class="project-btn-s active-btn projectDemo" onclick="window.open('https://wy-chan.github.io/devchallenges_Portfolio/','_blank')" >Demo</button>
+      <button class="project-btn-s projectCode" onclick="window.open('https://github.com/wy-chan/devchallenges_Portfolio','_blank')">Code</button>
       </div>
     </div>
     
         <div class="project-box tile">
        <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_checkoutp.png" alt="project image">
           <p class="tag">#HTML #CSS #Responsive</p>
-       <h4>Checkout Page</h4>
-           <p>In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
+       <h4 class="projectTitle">Checkout Page</h4>
+           <p class="projectText">In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
           <div class="project-btn-s-box">
-      <button class="project-btn-s active-btn" onclick="window.open('https://wy-chan.github.io/devchallenges_CheckoutPage/','_blank')">Demo</button>
-      <button class="project-btn-s" onclick="window.open('https://github.com/wy-chan/devchallenges_CheckoutPage','_blank')">Code</button>
+      <button class="project-btn-s active-btn projectDemo" onclick="window.open('https://wy-chan.github.io/devchallenges_CheckoutPage/','_blank')">Demo</button>
+      <button class="project-btn-s projectCode" onclick="window.open('https://github.com/wy-chan/devchallenges_CheckoutPage','_blank')">Code</button>
       </div>
     </div>
     
         <div class="project-box tile">
        <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_ediehomep.png" alt="project image">
           <p class="tag">#HTML #CSS #Responsive</p>
-          <h4>Edie Homepage</h4>
-           <p>In this project, I work with HTML and CSS to create a responsive page. This page is similiar with a page. The design is from devchallenge.io</p>
+          <h4 class="projectTitle">Edie Homepage</h4>
+           <p class="projectText">In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
           <div class="project-btn-s-box">
-      <button class="project-btn-s active-btn" onclick="window.open('https://wy-chan.github.io/devchallenges_EdieHomepage/','_blank')">Demo</button>
-      <button class="project-btn-s" onclick="window.open('https://github.com/wy-chan/devchallenges_EdieHomepage','_blank')">Code</button>
+      <button class="project-btn-s active-btn projectDemo" onclick="window.open('https://wy-chan.github.io/devchallenges_EdieHomepage/','_blank')">Demo</button>
+      <button class="project-btn-s projectCode" onclick="window.open('https://github.com/wy-chan/devchallenges_EdieHomepage','_blank')">Code</button>
       </div>
     </div>
      </div>
     
     <div class="page-btn-box">
-      <button class="page-btn "><span class="material-icons">
+      <button class="page-btn " id="btn-toLeft"><span class="material-icons">
 chevron_left
 </span></button>
-      <button class="page-btn active-btn">1
+      <button class="page-btn active-btn toPage">1
       </button>
-      <button class="page-btn">2
+      <button class="page-btn toPage">2
       </button>
-       <button class="page-btn">3
+       <button class="page-btn toPage">3
       </button>
-       <button class="page-btn "><span class="material-icons">
+       <button class="page-btn "  id="btn-toRight"><span class="material-icons">
 chevron_right
 </span></button>
     </div>
@@ -194,4 +205,5 @@ chevron_right
 <footer>
 <span>created by <em>wy-chan</em> - devChallenges.io</span>
 </footer>
+
 </body>

@@ -1,0 +1,53 @@
+{
+  "projects":[
+    {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_profilep1.png",
+      "title":"Portfolio Page",
+      "demoURL":"https://wy-chan.github.io/devchallenges_Portfolio/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_Portfolio/"
+    },
+      {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_checkoutp.png",
+      "title":"Checkout Page",
+      "demoURL":"https://wy-chan.github.io/devchallenges_CheckoutPage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_CheckoutPage/"
+    },
+      {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_ediehomep.png",
+      "title":"Edie Homepage",
+      "demoURL":"https://wy-chan.github.io/devchallenges_EdieHomepage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_EdieHomepage/"
+    },
+     {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_mygalleryp.png",
+      "title":"My Gallery",
+      "demoURL":"https://wy-chan.github.io/devchallenges_MyGalleryPage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_MyGalleryPage/"
+    },
+      {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_recipep.png",
+      "title":"Recipe Page",
+      "demoURL":"https://wy-chan.github.io/devchallenges_RecipePage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_RecipePage/"
+    },
+      {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_interiorconsultantp.png",
+      "title":"Interior Consultant",
+      "demoURL":"https://wy-chan.github.io/devchallenges_InteriorConsultantPage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_InteriorConsultantPage/"
+    },
+     {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_myteamp.png",
+      "title":"My Team Page",
+      "demoURL":"https://wy-chan.github.io/devchallenges_myteampage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_myteampage/"
+    },
+      {
+      "image":"https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_404notfoundp.png",
+      "title":"404 Not Found Page",
+      "demoURL":"https://wy-chan.github.io/devchallenges_404notfoundpage/",
+      "codeURL":"https://github.com/wy-chan/devchallenges_404notfoundpage/"
+    }
+     
+  ]
+}

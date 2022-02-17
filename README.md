@@ -39,7 +39,7 @@
 
 <img src="images/screenshot0.png" alt="screenshot" height="500">&nbsp;&nbsp;<img src="images/screenshot1.png" alt="screenshot" height="500">&nbsp;&nbsp;<img src="images/screenshot2.png" alt="screenshot" height="500">&nbsp;&nbsp;<img src="images/screenshot3.png" alt="screenshot" height="500">&nbsp;&nbsp;<img src="images/screenshot4.png" alt="screenshot" height="500">
 
-See demo here: https://wy-chan.github.io/devchallenges_RecipePage/
+See demo here: https://wy-chan.github.io/devchallenges_Portfolio/
 
 I created a page based on the given design. This challenge helps me to learn more about checkbox and lists(ordered list/ unordered list).
 

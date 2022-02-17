@@ -1,6 +1,6 @@
 let projectsData;
 
-let dataURL = 'https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main1/projects.json';
+let dataURL = 'https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/projects.json';
 
 var currentPage= 0;
 

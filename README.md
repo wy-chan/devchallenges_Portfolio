@@ -47,7 +47,7 @@ I created a page based on the given design. This challenge helps me to learn mor
 
 - HTML
 - CSS
-- javaScript
+- JavaScript
 - jQuery
 
 ## Features

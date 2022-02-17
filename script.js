@@ -52,7 +52,7 @@ function getProjects(i){
 
 function loadProject(i,p){
   if(p == undefined){
-    $('.project-img').eq(i).attr('style','opacity:0');
+  $('.project-img').eq(i).attr('style','opacity:0');
   $('.projectTitle').eq(i).attr('style','opacity:0');
   $('.projectDemo').eq(i).attr('style','opacity:0');
   $('.projectCode').eq(i).attr('style','opacity:0');

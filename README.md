@@ -38,11 +38,7 @@
 ## Overview
 
 <img src="images/screenshot0.png" alt="screenshot" height="400">
-<img src="images/screenshot1.png" alt="screenshot" height="400">&nbsp;&nbsp;
-<img src="images/screenshot2.png" alt="screenshot" height="400">&nbsp;&nbsp;
-<img src="images/screenshot3.png" alt="screenshot" height="400">&nbsp;&nbsp;
-<img src="images/screenshot4.png" alt="screenshot" height="400">&nbsp;&nbsp;
-<img src="images/screenshot5.png" alt="screenshot" height="400">
+<img src="images/screenshot1.png" alt="screenshot" height="400">&nbsp;&nbsp;<img src="images/screenshot2.png" alt="screenshot" height="400">&nbsp;&nbsp;<img src="images/screenshot3.png" alt="screenshot" height="400">&nbsp;&nbsp;<img src="images/screenshot4.png" alt="screenshot" height="400">
 
 See demo here: https://wy-chan.github.io/devchallenges_RecipePage/
 
@@ -52,6 +48,8 @@ I created a page based on the given design. This challenge helps me to learn mor
 
 - HTML
 - CSS
+- javaScript
+- jQuery
 
 ## Features
 
@@ -65,7 +63,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - [x] User story: I can filter projects by tag
 - [x] User story: I can see hobbies or certificates
 - [x] User story (optional): I can see experiences
-- [x] User story (optional): I can see blogs
+- [] User story (optional): I can see blogs
 - [x] User story (optional): I can see projects on different pages
 
 

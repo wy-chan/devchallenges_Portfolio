@@ -5,7 +5,7 @@
       "title":"Portfolio Page",
       "demoURL":"https://wy-chan.github.io/devchallenges_Portfolio/",
       "codeURL":"https://github.com/wy-chan/devchallenges_Portfolio/",
-      "tag":["#Responsive","#HTML","#CSS","#JavaScript","#jQuery"],
+      "tag":["Responsive","HTML","CSS","JavaScript","jQuery"],
       "text":"In this project, I work with HTML, CSS and JavaScript to create a responsive portfolio page. The design is from devchallenge.io"
     },
       {
@@ -13,7 +13,7 @@
       "title":"Checkout Page",
       "demoURL":"https://wy-chan.github.io/devchallenges_CheckoutPage/",
       "codeURL":"https://github.com/wy-chan/devchallenges_CheckoutPage/",
-      "tag":["#Responsive","#HTML","#CSS","#JavaScript"],
+      "tag":["Responsive","HTML","CSS","JavaScript"],
       "text":"In this project, I work with HTML, CSS and JavaScript to create a responsive checkout page. The design is from devchallenge.io"
     },
       {
@@ -21,7 +21,7 @@
       "title":"Edie Homepage",
       "demoURL":"https://wy-chan.github.io/devchallenges_EdieHomepage/",
       "codeURL":"https://github.com/wy-chan/devchallenges_EdieHomepage/",
-      "tag":["#Responsive","#HTML","#CSS","#JavaScript"],
+      "tag":["Responsive","HTML","CSS","JavaScript"],
       "text":"In this project, I work with HTML, CSS and JavaScript to create a responsive page. The design is from devchallenge.io"
     },
      {
@@ -29,7 +29,7 @@
       "title":"My Gallery",
       "demoURL":"https://wy-chan.github.io/devchallenges_MyGalleryPage/",
       "codeURL":"https://github.com/wy-chan/devchallenges_MyGalleryPage/",
-      "tag":["#Responsive","#HTML","#CSS"],
+      "tag":["Responsive","HTML","CSS"],
       "text":"In this project, I work with HTML and CSS to create a responsive gallery page. The design is from devchallenge.io"
     },
       {
@@ -37,7 +37,7 @@
       "title":"Recipe Page",
       "demoURL":"https://wy-chan.github.io/devchallenges_RecipePage/",
       "codeURL":"https://github.com/wy-chan/devchallenges_RecipePage/",
-      "tag":["#Responsive","#HTML","#CSS"],
+      "tag":["Responsive","HTML","CSS"],
       "text":"In this project, I work with HTML and CSS to create a responsive recipe page. The design is from devchallenge.io"
     },
       {
@@ -45,7 +45,7 @@
       "title":"Interior Consultant",
       "demoURL":"https://wy-chan.github.io/devchallenges_InteriorConsultantPage/",
       "codeURL":"https://github.com/wy-chan/devchallenges_InteriorConsultantPage/",
-      "tag":["#Responsive","#HTML","#CSS","#JavaScript"],
+      "tag":["Responsive","HTML","CSS","JavaScript"],
       "text":"In this project, I work with HTML, CSS and JavaScript to create a responsive page. The design is from devchallenge.io"
     },
      {
@@ -53,7 +53,7 @@
       "title":"My Team Page",
       "demoURL":"https://wy-chan.github.io/devchallenges_myteampage/",
       "codeURL":"https://github.com/wy-chan/devchallenges_myteampage/",
-      "tag":["#Responsive","#HTML","#CSS"],
+      "tag":["Responsive","HTML","CSS"],
       "text":"In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io"
     },
       {
@@ -61,7 +61,7 @@
       "title":"404 Not Found Page",
       "demoURL":"https://wy-chan.github.io/devchallenges_404notfoundpage/",
       "codeURL":"https://github.com/wy-chan/devchallenges_404notfoundpage/",
-      "tag":["#Responsive","#HTML","#CSS"],
+      "tag":["Responsive","HTML","CSS"],
       "text":"In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io"
     }
      

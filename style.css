@@ -23,7 +23,8 @@ main{
     "project project"
     "skills-exp1 exp"
     "skills-exp2 exp"
-    "hobby hobby";
+    "hobby hobby"
+    "links links";
   
   grid-template-columns: 0.4fr 0.6fr;
   row-gap: 42px;

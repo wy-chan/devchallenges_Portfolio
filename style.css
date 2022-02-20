@@ -406,26 +406,15 @@ font-size: 16px;
 }
 
 
-.my-footer{
+
+footer{
 padding-bottom: 24px;  
 width: 100%;
 
   display: flex;
-  justify-content: center;
-}
-.my-footer> span{
-width: 287px;
-height: 17px;
-
-font-family: "Montserrat";
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-
-color: #BDBDBD;
-
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
 em{
@@ -433,6 +422,31 @@ em{
   font-weight: bold;
 }
 
+#links-box{
+  width: 73%;
+  max-width: 1046px;
+  margin-bottom: 100px;
+  text-align: left;
+  grid-area: links;
+}
+
+.link{
+  margin-left:20px;
+   font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+}
+#links-box a,#links-box a:hover,#links-box a:active,#links-box a:visited{
+  color: #333333;
+  
+}
+#links-box a{
+  font-size: 20px;
+}
+#links-box a:hover{
+color:#2F80ED;
+}
 
 @media(max-width:950px){
   main{

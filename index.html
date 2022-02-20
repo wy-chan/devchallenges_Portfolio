@@ -36,7 +36,7 @@
         
         <p><span class="material-icons">
 email
-</span>mailwychan@gmail.com </p>
+</span> example@example.com</p>
         
         <p><span class="material-icons">
 call
@@ -54,35 +54,40 @@ call
   
   <section id="projects">
     <div class="project-top tile">
-      <h3>Projects (8)</h3>
-      <button class="project-btn active-btn">Responsive</button>
+      <h3>Projects (<span id="project-total">8</span>)</h3>
+            <button class="project-btn active-btn" id="All">All</button>
+      <button class="project-btn" id="Responsive">Responsive</button>
+      <button class="project-btn" id="HTML">HTML</button>
+      <button class="project-btn" id="CSS">CSS</button>
+      <button class="project-btn" id="JavaScript">JavaScript</button>
+      <button class="project-btn " id="jQuery">jQuery</button>
     </div>
     <div class="project-box-group">
-    <div class="project-box tile">
-      <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_profilep1.png" alt="project image" opacity="0">
-      <p class="tag">#HTML #CSS #Responsive</p>
+      
+
+              <div class="img-box"> <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_profilep1.png" alt="project image" opacity="0"> </div>
+      <p class="tag">#Responsive #HTML #CSS #JavaScript</p>
       <h4 class="projectTitle">Portfolio Page</h4>
       <p class="projectText">In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
       <div class="project-btn-s-box">
       <button class="project-btn-s active-btn projectDemo" onclick="window.open('https://wy-chan.github.io/devchallenges_Portfolio/','_blank')" >Demo</button>
       <button class="project-btn-s projectCode" onclick="window.open('https://github.com/wy-chan/devchallenges_Portfolio','_blank')">Code</button>
       </div>
-    </div>
+
     
-        <div class="project-box tile">
-       <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_checkoutp.png" alt="project image">
-          <p class="tag">#HTML #CSS #Responsive</p>
+
+         <div class="img-box"><img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_checkoutp.png" alt="project image">     </div>
+         <p class="tag">#Responsive #HTML #CSS #JavaScript</p>
        <h4 class="projectTitle">Checkout Page</h4>
            <p class="projectText">In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
           <div class="project-btn-s-box">
       <button class="project-btn-s active-btn projectDemo" onclick="window.open('https://wy-chan.github.io/devchallenges_CheckoutPage/','_blank')">Demo</button>
       <button class="project-btn-s projectCode" onclick="window.open('https://github.com/wy-chan/devchallenges_CheckoutPage','_blank')">Code</button>
       </div>
-    </div>
-    
-        <div class="project-box tile">
-       <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_ediehomep.png" alt="project image">
-          <p class="tag">#HTML #CSS #Responsive</p>
+
+      <div class="img-box">
+       <img class="project-img" src="https://raw.githubusercontent.com/wy-chan/devchallenges_Portfolio/main/images/screen_ediehomep.png" alt="project image"></div>
+          <p class="tag">#Responsive #HTML #CSS #JavaScript</p>
           <h4 class="projectTitle">Edie Homepage</h4>
            <p class="projectText">In this project, I work with HTML and CSS to create a responsive page. The design is from devchallenge.io</p>
           <div class="project-btn-s-box">
@@ -90,17 +95,18 @@ call
       <button class="project-btn-s projectCode" onclick="window.open('https://github.com/wy-chan/devchallenges_EdieHomepage','_blank')">Code</button>
       </div>
     </div>
-     </div>
+      
+
     
     <div class="page-btn-box">
       <button class="page-btn " id="btn-toLeft"><span class="material-icons">
 chevron_left
 </span></button>
-      <button class="page-btn active-btn toPage">1
+      <button class="page-btn active-btn toPage" value="0">1
       </button>
-      <button class="page-btn toPage">2
+      <button class="page-btn toPage" value="1">2
       </button>
-       <button class="page-btn toPage">3
+       <button class="page-btn toPage" value="2">3
       </button>
        <button class="page-btn "  id="btn-toRight"><span class="material-icons">
 chevron_right

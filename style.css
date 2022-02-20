@@ -430,22 +430,20 @@ em{
   grid-area: links;
 }
 
-.link{
-  margin-left:20px;
-   font-style: normal;
+.link-tag{
+font-style: normal;
 font-weight: bold;
-font-size: 18px;
-line-height: 22px;
+font-size: 20px;
+color: #333333;
+  margin-right: 10px;
+  list-style-type: circle;
 }
-#links-box a,#links-box a:hover,#links-box a:active,#links-box a:visited{
-  color: #333333;
-  
+#links-box a,#links-box a:visited{
+ color: #828282; 
 }
-#links-box a{
-  font-size: 20px;
-}
-#links-box a:hover{
+#links-box a:hover,#links-box a:active{
 color:#2F80ED;
+font-weight: bold;
 }
 
 @media(max-width:950px){

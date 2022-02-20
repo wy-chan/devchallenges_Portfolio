@@ -336,10 +336,13 @@ border-radius: 12px;
   width:80%;
 }
 .skills-js{
-  width:50%;
+  width:45%;
+}
+.skills-jq{
+   width:30%;
 }
 .skills-react{
-  width:40%;
+  width:30%;
 }
 .skills-ps{
   width:80%;

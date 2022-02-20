@@ -45,7 +45,7 @@
 
 See demo here: https://wy-chan.github.io/devchallenges_Portfolio/
 
-I created a page based on the given design. This challenge helps me to learn more about checkbox and lists(ordered list/ unordered list).
+I created a page based on the given design.
 
 ### Built With
 
